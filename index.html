@@ -11,7 +11,7 @@
 
     <body>
         <div id="main-navbar">
-            <nav class="navbar navbar-inverse" role="navigation">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Desplegar navegación</span>
@@ -61,25 +61,101 @@
             </nav>
         </div><!--Termina barra de navegacion-->
 
-        <section class="container">
-            <h1>Título Uno</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="container-fluid">
+            <div class="row border">
+                <div class="col-md-3 border">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">Temario</a>
+                        <a href="#" class="list-group-item">Bloque 1</a>
+                        <a href="#" class="list-group-item">Bloque 2</a>
+                        <a href="#" class="list-group-item">Bloque 3</a>
+                        <a href="#" class="list-group-item">Bloque 4</a>
+                    </div>
+                </div><!--Termina col-md-->
 
-            <h2>Título Dos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="col-md-6 border">
+                    <h2 class="page-header">
+                        Práctica GIT <small>Configuración Escencial</small>
+                    </h2>
 
-            <h3>Título Tres</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Bloque 1</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li>echo "# Mario" >> README.md</li>
+                                <li>git init</li>
+                                <li>git add README.md</li>
+                                <li>git commit -m "Mi primer commit"</li>
+                                <li>git remote add origin https://github.com/ItziaSoto/31-Julio-2017.git</li>
+                                <li>git push -u origin master</li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <h4>Título Cuatro</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Bloque 2</h3>
+                        </div>
+                        <div class="panel-body">
+                            <dl class="dl-horizontal">
+                                <dt>git log</dt>
+                                <dd>Historial de commits</dd>
 
-            <h5>Título Cinco</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <dt>git diff</dt>
+                                <dd>Muestra los cambios realizados</dd>
 
-            <h6>Título Seis</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </section>
+                                <dt>git commit --amend</dt>
+                                <dd>Regresa al último commit anterior para editarlo</dd>
+
+                                <dt>git checkout --index.html</dt>
+                                <dd>Regresa el index a un estado anterior (Deshace un cambio o modificación que se haya hecho, antes de hacer el add)</dd>
+
+                                <dt>git log --oneline</dt>
+                                <dd>Historial de commits</dd>
+
+                                <dt>git reset head index.html</dt>
+                                <dd>Cuando se hace un cambio pero ya se ha hecho el add</dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Bloque 3 | Ramas</h3>
+                        </div>
+                        <div class="panel-body">
+                            <dl class="dl-horizontal">
+                                <dt>git branch</dt>
+                                <dd>Muestra todas las ramas</dd>
+
+                                <dt>git branch NombreRama</dt>
+                                <dd>Crea una nueva rama</dd>
+
+                                <dt>git checkout NombreRama</dt>
+                                <dd>Hace el cambio de rama</dd>
+
+                                <dt>git checkout -b NombreRama</dt>
+                                <dd>Crea una rama y posisciona directamente en ella</dd>
+
+                                <dt>git branch -m NombreAntiguo NombreNuevo</dt>
+                                <dd>Renombre una Rama</dd>
+
+                                <dt>git branch -d NombreRama</dt>
+                                <dd>Elimina una Rama</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div><!--Termina col-md-->
+
+                <div class="col-md-3">
+                    <h3 class="page-header">
+                        Sidebar
+                    </h3>
+                </div>
+            </div><!--Termina row-->
+        </div><!--Termina comntainer-->
 
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>

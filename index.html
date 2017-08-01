@@ -6,9 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Titulo de la pagina</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
 
     <body>
+        <div id="main-navbar">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Desplegar navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logotipo</a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Enlace #1</a></li>
+                        <li><a href="#">Enlace #2</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Menú #1 <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Acción #1</a></li>
+                                <li><a href="#">Acción #2</a></li>
+                                <li><a href="#">Acción #3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Acción #4</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Acción #5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Enlace #3</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Menú #2 <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Acción #1</a></li>
+                                <li><a href="#">Acción #2</a></li>
+                                <li><a href="#">Acción #3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Acción #4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!--Termina barra de navegacion-->
+
         <section class="container">
             <h1>Título Uno</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -28,5 +80,8 @@
             <h6>Título Seis</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </section>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

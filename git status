@@ -1,0 +1,41 @@
+[33mcommit 91607997fcf5666415054e5fd8c1cbd02b73621a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mario Quiñones <mario@novomedia.mx>
+Date:   Tue Aug 1 08:50:59 2017 -0500
+
+    Se agrego Bootstrap al proyecto, de igual forma se agrega una pequeña barra de navegacion y los scripts al final del Body
+
+[33mcommit 675742da62d8aa1cbd7f91fbc0ce0dbc3e764f4d[m
+Author: ItziaSoto <itzia@novomedia.mx>
+Date:   Mon Jul 31 15:54:17 2017 -0500
+
+    Definición de container para centar texto
+
+[33mcommit ab8241ddf885678b84094568a4d942463068af85[m
+Author: Mario Quiñones <mario@novomedia.mx>
+Date:   Mon Jul 31 15:06:08 2017 -0500
+
+    Se agregaron heades h1-h6 al fichero index, de igual forma se les aplico estilos
+
+[33mcommit 34c72c363c958f946c3af303fdb3f1b677ac848b[m
+Author: ItziaSoto <itzia@novomedia.mx>
+Date:   Mon Jul 31 13:25:45 2017 -0500
+
+    Carpeta con css
+
+[33mcommit 3ab9d82fd34251ed6276c67944fe75b50574b3b8[m
+Author: ItziaSoto <itzia@novomedia.mx>
+Date:   Mon Jul 31 13:22:01 2017 -0500
+
+    Estructura básica de HTML con css en fondo gris
+
+[33mcommit c4a1767705d62bc03d86b1ac6222d7403a7b2a33[m
+Author: ItziaSoto <itzia@novomedia.mx>
+Date:   Mon Jul 31 13:05:04 2017 -0500
+
+    Commit Itzia
+
+[33mcommit 9bca5acbc809c2ea6ac343db1b5cfcf7ae86e33b[m
+Author: Mario Quiñones <mario@novomedia.mx>
+Date:   Mon Jul 31 12:50:22 2017 -0500
+
+    Commit Mario Alberto
